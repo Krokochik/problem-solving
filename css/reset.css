@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #363636;
+    outline: none;
+}
+
+html, body {
+    height: 100vh;
+    width: 100vw;
+}
+
+input {
+    border: 2px solid rgb(145, 145, 145);
+    border-radius: 5px;
+    box-shadow: 3px 3px 8px -1px #363636;
+    margin: 5px;
+    padding: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    width: max-content;
+}
+
+input:focus {
+    border: 2px solid rgb(101, 101, 101);
+    border-radius: 7px;
+}
+
+input:invalid {
+    border: 2px solid rgb(204, 44, 44);
+}
+
+button {
+    border-top: 2px solid rgb(145, 145, 145);
+    border-left: 2px solid rgb(145, 145, 145);
+    border-bottom: 2px solid rgb(101, 101, 101);
+    border-right: 2px solid rgb(101, 101, 101);
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    background: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background: rgba(112, 112, 112, 0.07);
+}
+
+button:active {
+    border-bottom: 2px solid rgb(145, 145, 145);
+    border-right: 2px solid rgb(145, 145, 145);
+    border-top: 2px solid rgb(101, 101, 101);
+    border-left: 2px solid rgb(101, 101, 101);
+}
